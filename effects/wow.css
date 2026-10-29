@@ -1,0 +1,3 @@
+[data-reveal]{transition:opacity .6s ease,transform .6s ease}.wow-pending{opacity:0;transform:translateY(18px)}
+[data-spotlight]{position:relative;isolation:isolate}[data-spotlight]::before{content:'';position:absolute;inset:0;background:radial-gradient(280px circle at var(--spot-x,50%) var(--spot-y,50%),#ffffff20,transparent);pointer-events:none;z-index:-1}
+@media(prefers-reduced-motion:reduce){[data-reveal],.wow-pending{transition:none;opacity:1;transform:none}}

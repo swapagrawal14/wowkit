@@ -1,0 +1,4 @@
+/* Apply data-style to <html>. Each preset is a starting point, not a template. */
+:root,[data-style="signal"]{--bg:#f3f1e9;--ink:#20231f;--muted:#64675d;--accent:#d9fb65;--surface:#e8e7de;--line:#cecec2;--display:Georgia,'Times New Roman',serif;--radius:2px}
+[data-style="nocturne"]{--bg:#171c26;--ink:#f0eee6;--muted:#b4b8c4;--accent:#b5b9ff;--surface:#242b38;--line:#3e4656;--display:Georgia,'Times New Roman',serif;--radius:14px}
+[data-style="clay"]{--bg:#f4ebe1;--ink:#392c26;--muted:#756157;--accent:#e8a07d;--surface:#eaddcf;--line:#cbb7a6;--display:Georgia,'Times New Roman',serif;--radius:24px}

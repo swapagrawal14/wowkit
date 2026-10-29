@@ -1,0 +1,11 @@
+node_modules/
+screenshots/
+.DS_Store
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.ssh/
+*.pem
+*.key

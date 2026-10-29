@@ -1,0 +1,13 @@
+{
+  "name": "wowkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A design playbook and dependency-free interaction kit for AI-built websites",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "check": "node tools/check.mjs",
+    "capture": "node tools/capture.mjs",
+    "test:motions": "node tools/test-motions.mjs"
+  },
+  "type": "module"
+}
